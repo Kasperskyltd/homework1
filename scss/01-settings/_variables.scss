@@ -1,0 +1,32 @@
+// kolory z koła kolorów Adobe
+$color1: #eff0f3;
+$color2: #74030e;
+$color3: #132601;
+$color4: #A98D87;
+$color5: #A85F23;
+$color6: #C2A663;
+
+$color-white: $color1; 
+$color-red: $color2; 
+$color-green: $color3;
+$color-beige: $color4;
+$color-brown: $color5;
+$color-grey: $color6;
+
+// kolor dla wybranych sekcji
+$color-bg-section: #504533;
+
+// kolor tła stopki
+$color-bg-footer: #201b13;
+
+// font size base
+$font-base: 10px;
+
+// grid
+$grid-base: $font-base;
+// odstęp pomiędzy kolumnami
+$gutter: 1.5 * $grid-base;
+
+// breakpoints for RWD
+$bp-md: 768px;
+$bp-lg: 1240px;

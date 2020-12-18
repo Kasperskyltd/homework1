@@ -1,0 +1,11 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 $gutter;
+    @include medium {
+        max-width: 740px;
+    }
+    @include large {
+        max-width: 1120px;
+    }
+}
